@@ -5,14 +5,14 @@ function projetos(section) {
     <div class="content">
       <div class="cards">
         <div class="card">
-          <h3>Orange Evolution</h3>
+          <h3>Projeto Crud - Pensamentos</h3>
           <div class="img-wrapper">
             <img
               src="./assets/images/projects/orange-evolution.gif"
-              alt="GIF do projeto Orange Evolution."
+              alt="GIF do projeto Crud Pensamentos."
             />
             <div class="buttons">
-              <a href="https://github.com/squad-30/OrangeEvolution-Squad30" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Alberto-Oliveira00/projeto-crud-pensamentos" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -42,9 +42,9 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            Plataforma de estudos desenvolvida na Hackathon do Programa de Formação 4 da FCamara.
+            Projeto de pensamentos usando o metodo CRUD durante curso da Alura.
           </p>
-          <p>HTML - CSS - JS - NodeJS - Express - SQLite</p>
+          <p>HTML - CSS - JS - NodeJS</p>
         </div>
         <div class="card">
           <h3>Desafio 21 dias de código</h3>
