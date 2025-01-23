@@ -54,6 +54,7 @@ body.light-mode {
   --paragraph-2: hsl(calc(var(--hue) + 10), 14%, 3%);
 }
 
+
 ::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -147,6 +148,10 @@ section span {
   position: relative;
 
   transition: 400ms;
+}
+
+.curriculo {
+  margin-top: 3rem;
 }
 
 body.light-mode .button,
