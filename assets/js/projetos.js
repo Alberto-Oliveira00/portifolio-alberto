@@ -8,7 +8,7 @@ function projetos(section) {
           <h3>Projeto Crud - Pensamentos</h3>
           <div class="img-wrapper">
             <img
-              src="./assets/images/projects/orange-evolution.gif"
+              src="./assets/images/projects/pensamento-crud.gif"
               alt="GIF do projeto Crud Pensamentos."
             />
             <div class="buttons">
@@ -26,7 +26,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://orangeevolution-squad30.up.railway.app" target="_blank" title="Ver Projeto">
+              <a href="https://alberto-oliveira00.github.io/projeto-crud-pensamentos/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -44,17 +44,17 @@ function projetos(section) {
           <p>
             Projeto de pensamentos usando o metodo CRUD durante curso da Alura.
           </p>
-          <p>HTML - CSS - JS - NodeJS</p>
+          <p>HTML - CSS - JS - NodeJS - JSON</p>
         </div>
         <div class="card">
-          <h3>Desafio 21 dias de código</h3>
+          <h3>Fokus</h3>
           <div class="img-wrapper">
             <img
-              src="./assets/images/projects/desafio-de-codigo.jpg"
-              alt="Imagem tema do projeto de desafio de código."
+              src="./assets/images/projects/fokus-projeto.gif"
+              alt="Gif do Projeto Fokus."
             />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/desafio-21-dias-codigo-rocketseat" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Alberto-Oliveira00/Fokus-projeto" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="#projects" id="desafio" title="Ver Projetos">
+              <a href="https://alberto-oliveira00.github.io/Fokus-projeto/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -84,12 +84,12 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            Desafio promovido pela Rocketseat com 21 projetos diferentes.
+            Fokus é um projeto de temporizador inspirado na técnica Pomodoro, desenvolvido durante um curso da Alura.
           </p>
-          <p>HTML - CSS - JS</p>
+          <p>HTML - CSS - JS - LocalStorage</p>
         </div>
         <div class="card">
-          <h3>Nutricionista Roberto - Links</h3>
+          <h3>AdoPet - Adoção de pets</h3>
           <div class="img-wrapper">
             <img src="./assets/images/projects/roberto-links.gif" alt="Imagem do projeto." />
             <div class="buttons">
