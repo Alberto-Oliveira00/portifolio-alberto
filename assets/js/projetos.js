@@ -91,9 +91,9 @@ function projetos(section) {
         <div class="card">
           <h3>AdoPet - Adoção de pets</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/roberto-links.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/adoPet.gif" alt="Gif do projeto." />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/robertoovidionutri-bio" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Alberto-Oliveira00/adoPet" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -107,7 +107,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://robertoovidionutri-bio.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://github.com/Alberto-Oliveira00/adoPet" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -122,15 +122,15 @@ function projetos(section) {
               </a>
             </div>
           </div>
-          <p>Páginas de links desenvolvida para cliente.</p>
-          <p>HTML - CSS - JS</p>
+          <p>AdoPet página de cadastro e adoção de pet.</p>
+          <p>HTML - CSS - JS - NodeJS - JSON</p>
         </div>
         <div class="card">
-          <h3>Nutricionista Roberto - Página de consulta</h3>
+          <h3>Alura Books - Página de livros de programação</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/roberto-consulta.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/aluraBooks.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/robertoovidionutri-consulta" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Alberto-Oliveira00/alura_books" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -144,7 +144,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://robertoovidionutri-consulta.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://alberto-oliveira00.github.io/alura_books/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -159,15 +159,15 @@ function projetos(section) {
               </a>
             </div>
           </div>
-          <p>Página de contato para consultas desenvolvida para cliente.</p>
-          <p>HTML - CSS - JS</p>
+          <p>Página de livros de programação. Utilizando API e criado durante curso da Alura métodos de arrays</p>
+          <p>HTML - CSS - JS - Metodos Array - Filtragem e ordenação</p>
         </div>
         <div class="card">
-          <h3>Doctor Care</h3>
+          <h3>Página de lista de Compras</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/doctorcare.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/listaDeCompras.gif" alt="Gif do projeto." />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/doctorcare" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Alberto-Oliveira00/listaDeComprasJS" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -181,7 +181,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://lucyanovidio.github.io/doctorcare/" target="_blank" title="Ver Projeto">
+              <a href="https://alberto-oliveira00.github.io/listaDeComprasJS/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -196,15 +196,15 @@ function projetos(section) {
               </a>
             </div>
           </div>
-          <p>Projeto de site desenvolvido na Next Level Week Return da Rocketseat.</p>
+          <p>Projeto site de lista de compras. Desenvolvido durante curso na Alura.</p>
           <p>HTML - CSS - JS</p>
         </div>
         <div class="card">
-          <h3>Meu Portifólio</h3>
+          <h3>Projeto CodeConnect</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/portifolio.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/codeConnect.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/portifolio" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Alberto-Oliveira00/projeto-codeconnect" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -218,7 +218,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://lucyanovidio.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://alberto-oliveira00.github.io/projeto-codeconnect/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -234,8 +234,7 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            O presente site que desenvolvi para apresentar a mim e meus
-            projetos.
+            Projeto CodeConnect. LandingPage de carregamento de projeto.
           </p>
           <p>HTML - CSS - JS</p>
         </div>
