@@ -693,6 +693,19 @@ body.light-mode #home img#notebook-2-white {
   position: relative;
 }
 
+.card h2 {
+  text-align: center;
+  color: #05b4ff;
+  margin-bottom: 16px;
+}
+
+.img-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1;
+}
+
 #projects .card img {
   width: 100%;
   height: 20rem;
@@ -806,7 +819,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #knowledge .card img {
-  width: 10rem;
+  width: 8rem;
 }
 
 /*===== CONTACT ===============================================*/
@@ -1351,12 +1364,18 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   #knowledge .cards {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
+    justify-content: space-between;
   }
 
   #knowledge .card {
-    width: 30%;
-    flex-grow: 1;
+    width: 48%;
+    box-sizing: border-box;
+  }
+
+  #knowledge .card h2 {
+    text-align: center;
+    
   }
 
   /*===== CONTACT =====================================*/
