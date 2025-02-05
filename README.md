@@ -1,6 +1,11 @@
-# Portfólio Pessoal - Alberto Oliveira
+<h1 align="center">Portifólio - Alberto 💻</h1>
 
-Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresentar meus trabalhos, habilidades e experiências como desenvolvedor.
+
+![Imagem do projeto finalizado](assets/images/imagem-portfolio.png)
+
+## 💻 Sobre
+
+Este projeto foi desenvolvido para apresentar meus trabalhos, habilidades e experiências como desenvolvedor.
 
 ## 🚀 Tecnologias Utilizadas
 
