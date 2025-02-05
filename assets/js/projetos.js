@@ -91,7 +91,7 @@ function projetos(section) {
         <div class="card">
           <h3>AdoPet - Adoção de pets</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/adoPet.gif" alt="Gif do projeto." />
+            <img src="./assets/images/projects/adopet.gif" alt="Gif do projeto." />
             <div class="buttons">
               <a href="https://github.com/Alberto-Oliveira00/adoPet" target="_blank" title="Repositório no Github">
                 <svg
@@ -128,7 +128,7 @@ function projetos(section) {
         <div class="card">
           <h3>Alura Books - Página de livros de programação</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/aluraBooks.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/alurabooks.gif" alt="Imagem do projeto." />
             <div class="buttons">
               <a href="https://github.com/Alberto-Oliveira00/alura_books" target="_blank" title="Repositório no Github">
                 <svg
