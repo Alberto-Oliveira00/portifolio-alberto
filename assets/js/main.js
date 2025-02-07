@@ -1,39 +1,20 @@
-import { desafios } from "./desafios.js";
-import { projetos } from "./projetos.js";
+// import { desafios } from "./desafios.js";
+// import { projetos } from "./projetos.js";
 
 const navigation = document.querySelector("#navigation");
 const backToTopButton = document.querySelector("#backToTopButton");
 const toggle = document.querySelector("#sw-checkbox");
 const projectsSection = document.querySelector("#projects .wrapper");
 
-const notebook_1 = document.querySelector("#notebook-1");
-const notebook_2 = document.querySelector("#notebook-2");
-const notebook_2_white = document.querySelector("#notebook-2-white");
-const vidro = document.querySelector("#vidro");
+// const notebook_1 = document.querySelector("#notebook-1");
+// const notebook_2 = document.querySelector("#notebook-2");
+// const notebook_2_white = document.querySelector("#notebook-2-white");
+// const vidro = document.querySelector("#vidro");
 
-window.addEventListener("load", function begin() {
-  projetos(projectsSection);
-  const desafioBtn = document.querySelector("#desafio");
 
-  desafioBtn.addEventListener("click", () => {
-    desafios(projectsSection);
-    document
-      .querySelector("#backToProjectsBtn")
-      .addEventListener("click", begin);
-  });
-});
 
 window.addEventListener("scroll", onScroll);
 onScroll();
-
-window.onload = setTimeout(() => {
-  notebook_1.style.opacity = 0;
-
-  notebook_1.style.animation = "none";
-  notebook_2.style.animation = "none";
-  notebook_2_white.style.animation = "none";
-  vidro.style.animation = "none";
-}, 4000);
 
 function onScroll() {
   showNavOnScroll();
@@ -116,7 +97,7 @@ ScrollReveal({
   #about img,
   #projects,
   #projects header,
-  #projects .card,
+  #projects .wrapper,
   #knowledge,
   #knowledg header,
   #knowledg .card,
@@ -127,3 +108,47 @@ ScrollReveal({
 toggle.addEventListener("change", () => {
   document.body.classList.toggle("light-mode");
 });
+
+const slides = document.querySelectorAll(".slides .slide");
+let slideIndex = 0;
+let intervalId = null;
+
+
+// initializeSlider();
+document.addEventListener("DOMContentLoaded", initializeSlider);
+
+document.querySelector(".prev").addEventListener("click",   prevSlide);
+
+document.querySelector(".next").addEventListener("click", nextSlide);
+
+function initializeSlider (){
+  if(slides.length > 0){
+    slides[slideIndex].classList.add("displaySlide");
+    intervalId = setInterval(nextSlide, 7000);
+  }
+}
+
+function showSlide(index){
+  if(index >= slides.length){
+    slideIndex = 0;
+  } 
+  else if (index < 0) {
+    slideIndex = slides.length - 1;
+  }
+
+  slides.forEach(slide => {
+    slide.classList.remove("displaySlide");
+  });
+  slides[slideIndex].classList.add("displaySlide");
+}
+
+function prevSlide(){
+  clearInterval(intervalId);
+  slideIndex--;
+  showSlide(slideIndex);
+}
+
+function nextSlide(){
+  slideIndex++;
+  showSlide(slideIndex);
+}
