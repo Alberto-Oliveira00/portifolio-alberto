@@ -283,8 +283,7 @@ body.light-mode nav.scroll {
 /* LOGO */
 
 a.logo {
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 3rem;
+  font-family: "Big Shoulders", sans-serif; /* Gemunu Libre */
   opacity: 0.7;
 }
 
@@ -294,7 +293,7 @@ nav#navigation a.logo {
 
 body.light-mode nav#navigation a.logo,
 body.light-mode footer a.logo {
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 footer a.logo,
@@ -1135,7 +1134,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   nav#navigation a.logo,
   footer a.logo {
-    font-size: 4rem;
+    font-size: 3.5rem;
     opacity: 0.7;
   }
 
